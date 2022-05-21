@@ -1,0 +1,179 @@
+<html>
+<head>
+    <title>HOME </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            background: rgba(0,0,0,0.0);
+            height:100vh;
+        }
+        .video-bg{
+            position:absolute;
+            right:0;
+            bottom:-12px;
+            min-width: 100%;
+            min-height: 110%;
+            width:auto;
+            height: auto;
+            z-index:-1;
+        }
+        @media (min-aspect-ratio:16/9){
+            .video-bg{
+                width:100%;
+                height:auto;
+            }
+        }
+        @media (min-aspect-ratio:16/9){
+            .video-bg{
+                width:auto;
+                height:100%;
+            }
+        }
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            color:#fff;
+        }
+        .fa:hover {
+            opacity: 0.7;
+        }
+        .nav{
+            background:rgba(0,0,0,0.7);
+            height:60px;
+            position:absolute;
+            width:100%;
+        }
+        .logo{
+            margin:0 50px;
+            height:50px;
+            float:left;
+            color:#fff;
+            font-size: 35px;
+            font-weight: bold;
+            text-transform: capitalize;
+            letter-spacing:2px;
+            position:absolute;
+            top:10px;
+            left:-10px;
+        }
+        .logo span{
+            color:#7200f5;
+        }
+        .menu{
+            float:right;
+            list-style: none;
+            margin:20px;
+        }
+        .menu li{
+            display:inline-block;
+            margin:0 5px;
+        }
+        .menu li a{
+            text-decoration:none;
+            color:#fff;
+            padding:5px 10px;
+            letter-spacing:2px
+        }
+        .content{
+            color:#fff;
+            text-align: center;
+            font-size:30px;
+            font-family:'Courier New', Courier, monospace;
+        }
+        .tex{
+            font-size:15px;
+            text-align: center;
+            color:#fff;
+            text-shadow: 0 0 2px white,0 0 5px rgb(179, 25, 127);
+        }
+        #a{
+            width:500px;
+            position:absolute;
+            left:40px;
+        }
+        #b{
+            width:450px;
+            position:absolute;
+            top:155%;
+            right:70px;
+        }
+        #e{
+            width:600px;
+            position:absolute;
+            top:130%;
+            left:550px;
+            text-align: left;
+        }
+        #d{
+            width:600px;
+            position:absolute;
+            top:180%;
+            right:550px;
+            text-align: right;
+        }
+        #c{
+            position:absolute;
+            top:200%;
+            z-index: -1;
+        }
+        #f{
+            position:absolute;
+            top:230%;
+            left:30%;
+        }
+    </style>
+    
+</head>
+<body>
+    <section class="header">
+        <video autoplay loop class="video-bg" muted plays-inline>
+        <source src="bg1.mp4" type="video/mp4"></video>
+        <div class="nav">
+            <div class="logo"><span>S</span>eSports</div>
+            <ul class="menu">
+                <li><a href="postings.php">Postings</a></li>
+                <li><a href="profile.php">Profile</a></li>
+                <li><a href="@">Support</a></li>
+                <li><a href="login.php">Sign-in</a></li>
+                <li><a href="@">Settings</a></li>
+            </ul>
+        </div>
+    </section>
+    <div class="cont">
+        <img src="13.jpg" id="a">
+        <img src="1.jpg" id="b">
+    </div>
+    <div class="tex">
+        <p id="d">The gaming industry is arguably one of the most important and innovative sectors in tech today. 
+            Its importance to culture, social networking and entertainment cannot be understated.
+            The term “entertainment industry” is no longer reserved for Hollywood and the movie industry
+            because gaming is now providing one of the most immersive and awe-inspiring forms of entertainment
+            to more than two billion people around the globe.</p>
+        <p id="e">The gaming industry is arguably one of the most important and innovative sectors in tech today. 
+            Its importance to culture, social networking and entertainment cannot be understated.
+            The term “entertainment industry” is no longer reserved for Hollywood and the movie industry
+            because gaming is now providing one of the most immersive and awe-inspiring forms of entertainment
+            to more than two billion people around the globe.</p>
+        <div id="f">
+            <h1>Contact Us</h1>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-rss"></a>
+        </div>
+    </div>
+    <div>
+        <img src="2.jpg" width="100%" id="c">
+    </div>
+</body>
+</html>
