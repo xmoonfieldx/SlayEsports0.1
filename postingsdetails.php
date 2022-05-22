@@ -20,7 +20,7 @@
   </ul>
 
 <div class="container">
-  <img src="https://tinyurl.com/2p99wczf" style="width:100%;opacity:1.5">
+  <img src="https://img.wattpad.com/137d285879a87476f381a49ff651f5a16988c7ca/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f454e49597a354a66746c356567673d3d2d313232373639393232372e313666313531636436303936646434333533353532333632353733372e706e67" style="width:100%;opacity:1.5">
   <p id="paragraph">
     <!--Display stuff from database-->
     <button class="button-85" style="float:right;">Submit Application</button>
